@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>menu.svg</file>
+        <file>functions.js</file>
+        <file>waypoint.svg</file>
+        <file>settings.svg</file>
+        <file>UnitsSettings.qml</file>
+        <file>HorizontalSeparator.qml</file>
+        <file>UnitsCombobox.qml</file>
+    </qresource>
+</RCC>
