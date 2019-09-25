@@ -1,9 +1,8 @@
 ﻿[Desktop Entry]
 Type=Application
-Name=SettingsMockup
-GenericName=QGC settings reskining mockup QML application
+Encoding=UTF-8
+Name=QGC Settings Mockup
 Comment=QGC settings reskining mockup QML application
-Icon=qgroundcontrol
 Exec=/usr/bin/SettingsMockup
+Icon=application.png
 Terminal=false
-Categories=Utility;
