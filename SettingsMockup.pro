@@ -29,5 +29,5 @@ desktop.path = /usr/share/applications
 desktop.files += SettingsMockup.desktop
 
 qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
+else: unix:!android: target.path = $${TARGET}/usr/bin
 !isEmpty(target.path): INSTALLS += target desktop
