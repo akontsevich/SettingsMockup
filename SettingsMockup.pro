@@ -25,9 +25,9 @@ QML_IMPORT_PATH =
 QML_DESIGNER_IMPORT_PATH =
 
 # Default rules for deployment.
-desktop.path = /usr/share/applications
+desktop.path = $${TARGET}/share/applications
 desktop.files += SettingsMockup.desktop
 
 qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = $${TARGET}/usr/bin
+else: unix:!android: target.path = $${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target desktop
