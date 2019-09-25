@@ -34,10 +34,11 @@ unix {
     shortcutfiles.files = SettingsMockup.desktop
     shortcutfiles.path = $$PREFIX/share/applications/
 
-    data.files += SettingsMockup.png
+    data.files = SettingsMockup.png
     data.path = $$PREFIX/share/pixmaps/
 
     INSTALLS += shortcutfiles data
+    INSTALLS += data
 }
 
 INSTALLS += target
