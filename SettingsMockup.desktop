@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SettingsMockup
+GenericName=QGC settings reskining mockup QML application
+Comment=QGC settings reskining mockup QML application
+Icon=qgroundcontrol
+Exec=SettingsMockup
+Terminal=false
+Categories=Utility;
