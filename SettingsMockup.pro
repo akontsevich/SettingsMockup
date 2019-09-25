@@ -30,12 +30,18 @@ unix {
         PREFIX = /usr
     }
     target.path = $$PREFIX/bin
+
     shortcutfiles.files = SettingsMockup.desktop
     shortcutfiles.path = $$PREFIX/share/applications/
-    INSTALLS += shortcutfiles
+
+    data.files += SettingsMockup.png
+    data.path = $$PREFIX/share/pixmaps/
+
+    INSTALLS += shortcutfiles data
 }
 
 INSTALLS += target
 
 DISTFILES += \
-    SettingsMockup.desktop
+    SettingsMockup.desktop  \
+    SettingsMockup.png
