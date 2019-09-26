@@ -2,7 +2,7 @@
 Type=Application
 Name=QGC Settings Mockup
 Comment=QGC settings reskining mockup QML application
-Exec=/usr/bin/SettingsMockup
+Exec=SettingsMockup
 Icon=SettingsMockup
 Terminal=false
 Categories=Development;
